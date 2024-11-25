@@ -1,0 +1,42 @@
+/* Navbar styles */
+nav {
+    background: #0c2172;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Align items on left and right */
+    align-items: center;
+}
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        gap: 1.5rem;
+        margin: 0;
+        padding: 0;
+        flex-grow: 1;
+        align-items: center;
+    }
+
+        nav ul li {
+            font-size: 1.1rem;
+        }
+
+            nav ul li a {
+                color: white;
+                font-weight: bold;
+                transition: all 0.3s ease;
+            }
+
+                nav ul li a:hover {
+                    color: #f4f4f4;
+                }
+
+/* Viewer count styles */
+.viewers-count {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: auto; /* Push to the left side */
+}

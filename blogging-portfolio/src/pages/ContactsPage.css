@@ -1,0 +1,66 @@
+.contacts-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.contact-info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+    .contact-info h1 {
+        margin-bottom: 10px;
+        font-size: 2rem;
+        color: #333;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+        color: #555;
+        margin: 5px 0;
+    }
+
+.comments-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+    .comments-section h2 {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        color: #444;
+    }
+
+    .comments-section ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .comments-section li {
+        margin: 10px 0;
+        padding: 10px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .comments-section strong {
+        color: #333;
+        font-weight: bold;
+    }
